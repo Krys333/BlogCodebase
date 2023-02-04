@@ -23,9 +23,3 @@ jobs:
         path: 'public'
         destination: 'krystianbucko.com'
         parent: false
-
-    # Example of using the output
-    - id: 'uploaded-files'
-      uses: 'foo/bar@main'
-      env:
-        files: '${{ steps.upload-folder.outputs.uploaded }}'
