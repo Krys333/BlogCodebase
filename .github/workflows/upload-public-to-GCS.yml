@@ -2,7 +2,6 @@ name: Push Contents To Google Cloud Storage
 
 on:
   push:
-    branches: [main]
 
 jobs:
   job_id:
