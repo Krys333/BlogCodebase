@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://krystianbucko.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Github Actions Secrets - Conceal sensitive data with &#39;secret&#39; variables</title>
+      <link>https://krystianbucko.com/blog/2022/12/github-actions-secrets-conceal-sensitive-data-with-secret-variables/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krystianbucko.com/blog/2022/12/github-actions-secrets-conceal-sensitive-data-with-secret-variables/</guid>
+      <description>What are github secrets? Imagine you are working on a project that demands sensitive credentials to be used in your code. In my example, I connect my Github repo to a google storage bucket. The idea is that every time I push to my repo, I want some files to be sent to the storage bucket.
+In order for this to work, I need to specify sensitive credentials in my code.</description>
+    </item>
+    
+    <item>
       <title>Develop a website just like this - easily and quickly</title>
       <link>https://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
