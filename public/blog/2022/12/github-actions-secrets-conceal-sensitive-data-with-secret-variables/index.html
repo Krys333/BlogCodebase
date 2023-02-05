@@ -170,9 +170,9 @@
         <div class="prose">
             <h2 id="what-are-github-secrets">What are github secrets?</h2>
 <p>Imagine you are working on a project that demands sensitive credentials to be used in your code. In my example, I connect my Github repo to a google storage bucket. The idea is that every time I push to my repo, I want some files to be sent to the storage bucket.</p>
-<p>In order for this to work, I need to specify sensitive credentials in my code. As I store my code in a public repository, making the information plain to see and read is clearly a bad idea. This is where Github secrets come in to save the day.</p>
+<p>In order for this to work, I need to specify sensitive credentials in my code. As I store my code in a public repository, making the information plain to see and read is clearly a bad idea. This is where Github secrets come to save the day.</p>
 <blockquote>
-<p>I use Github Actions to push files into Google cloud Storage. We cover this automation in my &lsquo;GitHub Actions&rsquo; blog post.</p>
+<p>I use Github Actions to push files into Google Cloud Storage. We cover this automation in my &lsquo;GitHub Actions&rsquo; blog post.</p>
 </blockquote>
 <h2 id="an-example">An example</h2>
 <p>Imagine you are working on a Github action and get to the authentication section. Anyone seeing this will be able to access your service using these credentials.</p>
@@ -182,10 +182,10 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">identity_provider</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;my_user_credentials123&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">service_account</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;my_password123&#39;</span><span class="w">
-</span></span></span></code></pre></div><p>To cover for this we will create a Github secret which will replace credentials with a variable name, which is only accessible to your account.</p>
+</span></span></span></code></pre></div><p>To cover for this we will create a Github secret which will replace credentials with a variable name, this variable is only accessible to your account.</p>
 <h2 id="setting-up-secrets">Setting up Secrets</h2>
-<p>To set up the secret go to your repository using Github. Then click Settings &gt; Secrets and variables &gt; Actions.</p>
-<p>You should be able to see a screen where all your secret credentials will be stored. This will be empty if you have not created anything yet. Proceed by clicking the green &ldquo;New repository secret&rdquo; button.</p>
+<p>To set up the secret go to your repository using Github web interface. Then click <!-- raw HTML omitted --> Settings &gt; Secrets and variables &gt; Actions.<!-- raw HTML omitted --></p>
+<p>You should be able to see a screen where all your secret credentials are stored. This should be empty, given you have not created any secrets yet. Proceed by clicking the green <!-- raw HTML omitted -->&ldquo;New repository secret&rdquo;<!-- raw HTML omitted --> button.</p>
 <p>You should now be prompted to enter the name for your secret, as well as the &lsquo;secret&rsquo; value in a separate box. The name of your secret should follow this format:</p>
 <ul>
 <li>Secret name MUST start with a letter or an underscore.</li>
@@ -194,7 +194,7 @@
 </ul>
 <p>Once submitted, the secret name defaults to ALL CAPS. So a secret called &lsquo;heLLO123_&rsquo; is formatted to &lsquo;HELLO123_&rsquo;. This will be relevant in the following section.</p>
 <h2 id="using-the-secret">Using the secret</h2>
-<p>Remember the example with plain text credentials. Here is the same example however, we are now using the created secrets. Imagine the &lsquo;HELLO123_&rsquo; is the secret storing our identity provider credential. The &lsquo;GOOGLE_PASS&rsquo; on the other hand is where we store our password. To use the secret simply use ${{ secrets.SECRET_NAME1 }}.</p>
+<p>Remember the example with plain text credentials? Here is the same example however, we are now using the created secrets. Imagine the &lsquo;HELLO123_&rsquo; is the secret storing our identity provider credential. The &lsquo;GOOGLE_PASS&rsquo; on the other hand is where we store our password. To use the secret simply use ${{ secrets.SECRET_NAME1 }} format.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;auth&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Authenticate to Google Cloud&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;google-github-actions/auth@v1&#39;</span><span class="w">
