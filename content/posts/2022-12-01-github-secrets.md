@@ -8,7 +8,7 @@ author:
 categories: ["Github Secrets", "Github", "How-to guide", "December 2022"]
 description: "A quick intro into Github secrets and how to use them."
 thumbnail: "images/github-secrets.jpg"
-image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&1600x900"
+image: "https://git-secret.io/images/git-secret-big.png"
 ---
 
 ## What are github secrets?

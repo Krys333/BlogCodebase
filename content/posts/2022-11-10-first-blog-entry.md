@@ -8,7 +8,7 @@ author:
 categories: ["How-to guide", "HUGO framework", "November 2022"]
 description: "Hosting your website as a static site will improve performance and improve security."
 thumbnail: "images/hugo.jpg"
-image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&1600x900"
+image: 'https://areait.com.au/storage/2017/12/coding_small-768x512.png' 
 ---
 
 ## Outline

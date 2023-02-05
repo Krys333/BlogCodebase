@@ -135,17 +135,21 @@
       "z-50"
     ],
     "ids": [
+      "an-example",
       "be-wary-of-the-base-url-line",
       "if-you-are-interested-in-working-with-me-try-the-following",
       "menu-close",
       "menu-container",
       "menu-trigger",
       "outline",
+      "setting-up-secrets",
       "step-1---install-hugo",
       "step-2-optional",
       "step-3---select-a-theme",
       "step-4---content",
-      "step-5---deploy-your-site"
+      "step-5---deploy-your-site",
+      "using-the-secret",
+      "what-are-github-secrets"
     ]
   }
 }
