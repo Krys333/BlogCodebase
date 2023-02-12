@@ -8,16 +8,16 @@ author:
 categories: ["How-to guide", "HUGO framework", "November 2022"]
 description: "Hosting your website as a static site will improve performance and improve security."
 thumbnail: "images/hugo.jpg"
-image: 'https://areait.com.au/storage/2017/12/coding_small-768x512.png' 
+image: '/images/web-dev.jpg' 
 ---
 
 ## Outline
 
-HUGO is an amazing tool allowing you to get a site up and running in a matter of hours (even for a begginer). The way it does this is by taking your selected theme and compiling the HTML files for you. This article will show you how to do just that. We will follow a few basic steps:
+HUGO is an amazing tool allowing you to get a site up and running in a matter of hours (even for a beginner). The way it does this is by taking your selected theme and compiling the HTML files for you. This article will show you how to do just that. We will follow a few basic steps:
 
 - Install HUGO
 - Download a theme suited to your project
-- Customise the theme
+- Customize the theme
 - Add your content
 - Deploy the website 
 
@@ -33,7 +33,7 @@ Bare in mind that you will need a package manager (such as Chocolatey, or Docker
 
 Get to grips with the base components of the framework. A great start is to get a basic theme up and running on a locally hosted server: https://gohugo.io/getting-started/quick-start/
 
-The above guide is amazing as it sets out the steps very clearly. Once you have the basic project up and running, it will be much easier to see how the larger themes operate. I recomend step to anyone who is new to web-development.
+The above guide is amazing as it sets out the steps very clearly. Once you have the basic project up and running, it will be much easier to see how the larger themes operate. I recommend step to anyone who is new to web-development.
 
 ## Step 3 - Select a theme
 

@@ -5,6 +5,7 @@
       "blockquote",
       "body",
       "button",
+      "code",
       "div",
       "footer",
       "h1",
@@ -137,6 +138,8 @@
     "ids": [
       "an-example",
       "be-wary-of-the-base-url-line",
+      "dissecting-a-github-action-pushing-content-to-a-google-cloud-storage-bucket",
+      "getting-started",
       "if-you-are-interested-in-working-with-me-try-the-following",
       "menu-close",
       "menu-container",

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Actions on Krystian&#39;s Blog</title>
+    <link>https://krystianbucko.com/categories/github-actions/</link>
+    <description>Recent content in GitHub Actions on Krystian&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krystianbucko.com/categories/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic introduction to GitHub Actions</title>
+      <link>https://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</guid>
+      <description>Outline GitHub Actions are a powerful way of automating your tasks. Often, when you work on a project you will regularly find yourself pushing new updates and features. Naturally then, these changes need to be published in several spaces; be it a GitHub repository, a cloud storage bucket, or anywhere else your code is set to function. This action alone can double and triple your work. This is where GitHub actions can do all the lifting for you.</description>
+    </item>
+    
+  </channel>
+</rss>

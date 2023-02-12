@@ -1,11 +1,11 @@
 ---
-title: "Github Actions Secrets - Conceal sensitive data with 'secret' variables"
+title: "Secrets in Github Actions - Conceal sensitive data with 'secret' variables"
 date: 2022-12-01
 author: 
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["Github Secrets", "Github", "How-to guide", "December 2022"]
+categories: ["GitHub", "Security", "How-to guide", "December 2022"]
 description: "A quick intro into Github secrets and how to use them."
 thumbnail: "images/github-secrets.jpg"
 image: "https://git-secret.io/images/git-secret-big.png"
