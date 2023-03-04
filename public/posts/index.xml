@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Krystian&#39;s Blog</title>
-    <link>https://krystianbucko.com/posts/</link>
+    <link>http://krystianbucko.com/posts/</link>
     <description>Recent content in Blog on Krystian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://krystianbucko.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://krystianbucko.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic introduction to GitHub Actions</title>
-      <link>https://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</link>
+      <link>http://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</guid>
+      <guid>http://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</guid>
       <description>Outline GitHub Actions are a powerful way of automating your tasks. Often, when you work on a project you will regularly find yourself pushing new updates and features. Naturally then, these changes need to be published in several spaces; be it a GitHub repository, a cloud storage bucket, or anywhere else your code is set to function. This action alone can double and triple your work. This is where GitHub actions can do all the lifting for you.</description>
     </item>
     
     <item>
       <title>Secrets in Github Actions - Conceal sensitive data with &#39;secret&#39; variables</title>
-      <link>https://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</link>
+      <link>http://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</guid>
+      <guid>http://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</guid>
       <description>What are github secrets? Imagine you are working on a project that demands sensitive credentials to be used in your code. In my example, I connect my Github repo to a google storage bucket. The idea is that every time I push to my repo, I want some files to be sent to the storage bucket.
 In order for this to work, I need to specify sensitive credentials in my code.</description>
     </item>
     
     <item>
       <title>Develop a website just like this - easily and quickly</title>
-      <link>https://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</link>
+      <link>http://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</guid>
+      <guid>http://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</guid>
       <description>Outline HUGO is an amazing tool allowing you to get a site up and running in a matter of hours (even for a beginner). The way it does this is by taking your selected theme and compiling the HTML files for you. This article will show you how to do just that. We will follow a few basic steps:
 Install HUGO Download a theme suited to your project Customize the theme Add your content Deploy the website Do bare in mind that this is the high-level overview of the project.</description>
     </item>

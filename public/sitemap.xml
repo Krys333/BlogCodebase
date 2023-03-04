@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</loc>
+    <loc>http://krystianbucko.com/blog/2023/01/basic-introduction-to-github-actions/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/</loc>
+    <loc>http://krystianbucko.com/categories/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/github/</loc>
+    <loc>http://krystianbucko.com/categories/github/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/github-actions/</loc>
+    <loc>http://krystianbucko.com/categories/github-actions/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/how-to-guide/</loc>
+    <loc>http://krystianbucko.com/categories/how-to-guide/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/january-2023/</loc>
+    <loc>http://krystianbucko.com/categories/january-2023/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/december-2022/</loc>
+    <loc>http://krystianbucko.com/categories/december-2022/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</loc>
+    <loc>http://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/security/</loc>
+    <loc>http://krystianbucko.com/categories/security/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</loc>
+    <loc>http://krystianbucko.com/blog/2022/11/develop-a-website-just-like-this-easily-and-quickly/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/hugo-framework/</loc>
+    <loc>http://krystianbucko.com/categories/hugo-framework/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/categories/november-2022/</loc>
+    <loc>http://krystianbucko.com/categories/november-2022/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/</loc>
+    <loc>http://krystianbucko.com/</loc>
     <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/posts/</loc>
+    <loc>http://krystianbucko.com/posts/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krystianbucko.com/authors/</loc>
+    <loc>http://krystianbucko.com/authors/</loc>
   </url><url>
-    <loc>https://krystianbucko.com/contact/</loc>
+    <loc>http://krystianbucko.com/contact/</loc>
   </url><url>
-    <loc>https://krystianbucko.com/tags/</loc>
+    <loc>http://krystianbucko.com/tags/</loc>
   </url>
 </urlset>

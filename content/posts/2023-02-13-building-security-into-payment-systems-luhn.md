@@ -1,6 +1,6 @@
 ---
 title: "E-commerce payment security - The Luhn algorithm."
-date: 2023-02-13
+date: 2024-02-13
 author: 
   name: "Krystian Bucko"
   image: images/author/krys.jpg
@@ -9,6 +9,7 @@ categories: ["Security", "E-commerce", "Payments", "Algorithms", "February 2023"
 description: "Discover how card validation works and how Luhn algorithm is our first line of defence."
 thumbnail: "images/github-actions.jpg"
 image: '/images/github-actions-hero.jpg' 
+draft: true
 ---
 
 ## What is Luhn algorithm and why should you care?
