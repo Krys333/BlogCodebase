@@ -19,5 +19,5 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: public
-          destination: krystianbucko.com
+          destination: www.krystianbucko.com
           parent: false
