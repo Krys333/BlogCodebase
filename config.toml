@@ -1,4 +1,4 @@
-baseURL = "http://krystianbucko.com/"
+baseURL = "https://krystianbucko.com/"
 languageCode = "en-us"
 title = "Krystian's Blog"
 theme = "hugo-atlantic-theme"
