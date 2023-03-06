@@ -12,7 +12,7 @@ image: '/images/github-actions-hero.jpg'
 draft: true
 ---
 
-## What is Luhn algorithm and why should you care?
+## What is Luhn algorithm and why should you care? 
 
 Luhn algorithm, also known as 10 check-sum, is a very popular method of validating numerical IDs. Think debit card numbers, government social security numbers, or even diner loyalty cards. Luhn algorithm provides a fast and convenient method to verify whether the number entered by your user is likely to be authentic.
 
