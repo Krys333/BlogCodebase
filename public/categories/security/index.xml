@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Krystian&#39;s Blog</title>
-    <link>http://krystianbucko.com/categories/security/</link>
+    <link>https://krystianbucko.com/categories/security/</link>
     <description>Recent content in Security on Krystian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://krystianbucko.com/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://krystianbucko.com/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secrets in Github Actions - Conceal sensitive data with &#39;secret&#39; variables</title>
-      <link>http://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</link>
+      <link>https://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</guid>
+      <guid>https://krystianbucko.com/blog/2022/12/secrets-in-github-actions-conceal-sensitive-data-with-secret-variables/</guid>
       <description>What are github secrets? Imagine you are working on a project that demands sensitive credentials to be used in your code. In my example, I connect my Github repo to a google storage bucket. The idea is that every time I push to my repo, I want some files to be sent to the storage bucket.
 In order for this to work, I need to specify sensitive credentials in my code.</description>
     </item>
