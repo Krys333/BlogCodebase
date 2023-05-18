@@ -67,6 +67,9 @@ jobs:
         uses: google-github-actions/auth@v1
         with:
           credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+    
+      - name: Copy built files to repository
+        run: cp -R public $GITHUB_WORKSPACE/public
 
       - name: Upload contents to Google Cloud Storage
         uses: google-github-actions/upload-cloud-storage@v1
