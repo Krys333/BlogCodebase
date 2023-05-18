@@ -6,9 +6,9 @@ on:
 
 jobs:
   deploy_site:
-    runs-on: 'ubuntu-18.04'
+    runs-on: 'ubuntu-latest'
     permissions:
-      contents: read
+      contents: read+write
     steps:
       - name: Checkout repository
         uses: 'actions/checkout@v3'
