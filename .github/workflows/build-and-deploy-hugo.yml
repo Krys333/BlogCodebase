@@ -1,17 +1,61 @@
 
+# name: Deploy Hugo Site to Google Cloud Storage
+
+# on:
+#   push:
+
+# jobs:
+#   deploy_site:
+#     runs-on: 'ubuntu-latest'
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Checkout repository
+#         uses: 'actions/checkout@v3'
+
+#       - name: Set up Hugo
+#         uses: peaceiris/actions-hugo@v2
+#         with:
+#           hugo-version: 'latest'
+
+#       - name: Build Hugo site
+#         run: hugo --minify
+
+#       - name: Authenticate to Google Cloud
+#         uses: google-github-actions/auth@v1
+#         with:
+#           credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+
+#       - name: Upload contents to Google Cloud Storage
+#         uses: google-github-actions/upload-cloud-storage@v1
+#         with:
+#           path: public
+#           destination: krystianbucko.com
+#           parent: false
+
 name: Deploy Hugo Site to Google Cloud Storage
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   deploy_site:
     runs-on: 'ubuntu-latest'
     permissions:
-      contents: write
+      contents: read
     steps:
       - name: Checkout repository
         uses: 'actions/checkout@v3'
+
+      - name: Install Node.js and npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install npm dependencies
+        run: npm ci
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
