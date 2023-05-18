@@ -37,8 +37,6 @@ name: Deploy Hugo Site to Google Cloud Storage
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   deploy_site:
