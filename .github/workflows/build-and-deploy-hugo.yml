@@ -62,7 +62,6 @@ jobs:
 
       - name: Build Hugo site
         run: hugo --minify
-        working-directory: ./public   # Set the working directory to "public"
 
       - name: Move built files to repository
         run: |
