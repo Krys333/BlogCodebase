@@ -63,6 +63,9 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
+      - name: Remove existing "public" folder
+        run: rm -rf $GITHUB_WORKSPACE/public
+        
       - name: Move built files to repository
         run: |
           mkdir -p public
