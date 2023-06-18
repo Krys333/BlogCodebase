@@ -99,4 +99,14 @@ first_digits, original_check_digit = split_check_digit(original_number)
 correct_check_digit = calculate_luhn_check_digit(first_digits)
 result = compare_actual_against_valid(original_check_digit, correct_check_digit)
 ```
-I recommend using the above code in conjunction with a basic user entry character count. A common usecase are most debit cards which use 16 digits. Using the check you can cover for the most common entry-errors, and other fishy data entries.
+I recommend using the above code in conjunction with a basic input character count. This will cover you for most user input errors, as well as some unsofisticated malicious entry attempts. 
+
+## Other quirks of the check digit algorythm
+
+If you are looking to implement this algorythm with your system, you need to know that it may not be easy to do so retrospectively. Let's say you have an existing user with the ID "1234 5678". By sheer chance, it is unlikely that our last digit ever happens to be correct as a check digit. As such, you are forced to add an additional digit to your ID. This may be problematic if you have previously issued your users with cards, or other references to their identification number. Many of them will not enjoy having to re-learn it!
+
+However, if that is not a problem, you can re-utilise the code above to calculate check-digits for all of your IDs. The ID format is very flexible. It can be almost any length as it does not have a maximum digit limit. The number of elements can be odd, or even. The ID can, but does not have to be, a real number. 
+
+Equipped with all this knowledge you can now go out there and build more robust ID systems. 
+
+Happy ID-ing!
