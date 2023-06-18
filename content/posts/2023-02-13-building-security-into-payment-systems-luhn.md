@@ -70,7 +70,7 @@ Remember our checksum? If our calculations match the checksum it means the numbe
 
 
 ```python
-def split_the_check_digit(original_number):
+def split_check_digit(original_number):
     first_digits = original_number[:-1]
     original_check_digit = int(original_number) % 10
     return first_digits, original_check_digit
@@ -95,7 +95,7 @@ def compare_actual_against_valid(original_check_digit, correct_check_digit):
         return "invalid number"
 
 original_number = "3379513561108795"
-first_digits, original_check_digit = split_the_check_digit(original_number)
+first_digits, original_check_digit = split_check_digit(original_number)
 correct_check_digit = calculate_luhn_check_digit(first_digits)
 result = compare_actual_against_valid(original_check_digit, correct_check_digit)
 ```
