@@ -6,7 +6,7 @@ author:
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
 categories: ["Security", "E-commerce", "Payments", "Algorithms", "February 2023"]
-description: "Discover how card validation works and how Luhn algorithm is our first line of defence."
+description: "Discover how card validation works and how Luhn algorithm is our first line of defence against input errors."
 thumbnail: "images/luhn-algorithm-thumbnail.jpg"
 image: '/images/blackboard.jpg' 
 ---
