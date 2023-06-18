@@ -19,8 +19,8 @@ Is it a security measure? Well... no, not really. You should not rely on this me
 
 ## How does the Luhn algorithm work?
 
-We will be applying the algorithm to the following 16 digit number in order to test if it is correct - 3379 5135 6110 8795
-It is important to know there are two types of checks. One is the "10-checksum", the second is the "last ckeck-digit".
+We will be applying the algorithm to the following 16 digit number in order to test if it is correct - 3379 5135 6110 8795.
+It is important to know there are two types of checks. One is the "10-checksum", the second is the "last check-digit".
 We are applying the last check-digit. As such before we begin, drop the last digit (5). This will be our "check number". It will be important later!
 
 ### Part 1 Calculate the weighted sum of the card number.
@@ -56,7 +56,7 @@ If we sum up the last row we get a sum of 65.
 ```
 6+3+5+9+1+1+6+5+3+1+2+0+7+7+9 = 65
 ```
-Using this number we now plot the sum into the following euation: 10 - (s mod 10).
+Using this number we now plot the sum into the following equation: 10 - (s mod 10).
 "s mod 10" refers to the modulo number we get when we divide our sum by 10.
 ```
 10 - (65 mod 10)
@@ -86,10 +86,9 @@ def calculate_luhn_check_digit(number):
     for digit in even_digits:
         component = sum(divmod(digit * 2, 10))
         total += component
-        comp_total += component
     return (10 - (total % 10))
 
-def compare_original_against_valid(original_check_digit, correct_check_digit):
+def compare_actual_against_valid(original_check_digit, correct_check_digit):
     if original_check_digit == correct_check_digit:
         return "valid number"
     else:
