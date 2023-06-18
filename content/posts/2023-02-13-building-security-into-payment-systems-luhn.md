@@ -100,5 +100,4 @@ first_digits, original_check_digit = strip_the_check_digit(original_number)
 correct_check_digit = calculate_luhn_check_digit(first_digits)
 result = compare_original_against_valid(original_check_digit, correct_check_digit)
 ```
-
 I recommend using the above code in conjunction with a basic user entry character count. A common usecase are most debit cards which use 16 digits. Using the check you can cover for the most common entry-errors, and other fishy data entries.
