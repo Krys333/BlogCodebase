@@ -21,11 +21,11 @@ Is it a security measure? Well... no, not really. You should not rely on this me
 
 We will be applying the algorithm to the following 16 digit number in order to test if it is correct - 3379 5135 6110 8795.
 It is important to know there are two types of checks. One is the "10-checksum", the second is the "last check-digit".
-We are applying the last check-digit. As such before we begin, drop the last digit (5). This will be our "check number". It will be important later!
+We are applying the last check-digit method. As such, before we start, drop the last digit (5). This will be our "check number". It will be important later!
 
 ### Part 1 Calculate the weighted sum of the card number.
 
-We will be using a weighted sum pattern of 2,1,2,1,2,1 and so on. What does this mean? Depending on the position of the number on the card, we will multiply the digit by either a 1, or a 2. For our number the pattern will look as follows. Exclude the number we have dropped. 
+We will be using a weighted sum pattern of 2,1,2,1,2,1 and so on. What does this mean? Depending on the position of the number on the card, we will multiply the digit by either a 1, or a 2. For our number the pattern will look as follows. Remember to exclude the number we have dropped from the end. 
 ```
  ______________________________
 |3|3|7|9|5|1|3|5|6|1|1|0|8|7|9|
@@ -65,8 +65,9 @@ Using this number we now plot the sum into the following equation: 10 - (s mod 1
 ```
 Remember our checksum? If our calculations match the checksum it means the number is valid!
 3379 5135 6110 8795
+The original check digit was 5. Our calculated check digit is a 5 as well. This means our number is correct!
 
-## A coded example
+## A coded example (python)
 
 
 ```python
@@ -99,7 +100,7 @@ first_digits, original_check_digit = split_check_digit(original_number)
 correct_check_digit = calculate_luhn_check_digit(first_digits)
 result = compare_actual_against_valid(original_check_digit, correct_check_digit)
 ```
-I recommend using the above code in conjunction with a basic input character count. This will cover you for most user input errors, as well as some unsofisticated malicious entry attempts. 
+I recommend using the above code in conjunction with a basic input character count. This will cover you for most user input errors, as well as some unsophisticated malicious entry attempts. 
 
 ## Other quirks of the check digit algorythm
 
