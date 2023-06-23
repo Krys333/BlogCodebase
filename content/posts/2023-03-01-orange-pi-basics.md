@@ -6,7 +6,7 @@ author:
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
 categories: ["OrangePi", "Electronics", "RaspberryPi", "March 2023"]
-description: "How not to lose an arm and a leg when buying a mini-computer for your project"
+description: "How not to lose an arm and a leg when buying a mini-computer for your project."
 thumbnail: "images/thummbnail-orangepi.jpg"
 image: '/images/orangepi-diagram.jpg' 
 ---
@@ -19,7 +19,7 @@ So why switch from the classic? It is tried and tested. The documentation is all
 
 The mission behind RaspberryPi was always noble and simple. Bring affordable hardware to people who want to learn more about computing and coding. Make it affordable. Make it cheap!
 
-Unfortunately, through no fault of their own, their hardware has become anything but accessible in the recent years. With the pandemic chip shortages, the war in Ukraine, or the skyrocketting demand for home-working electronics, the prices of conductors and various parts has done nothing but go up. This naturally made it harder for Raspberry Pi to manufactue new units.
+Unfortunately, through no fault of their own, their hardware has become anything but accessible in the recent years. With the pandemic chip shortages, the war in Ukraine, or the skyrocketing demand for home-working electronics, the prices of conductors and various parts has done nothing but go up. This naturally made it harder for Raspberry Pi to manufacture new units.
 
 Finally, there is the last puzzle piece that also lead to hardware shortages... the opportunists! Where there is an item in demand, there are also people trying to profit. With that, individuals with the capital to do it, were able to buy multiple boards for a later resale. This obviously exacerbated the problem and left people like you and me looking for alternatives.
 
@@ -31,7 +31,7 @@ So, are there even any alternatives you may ask. Of course there are! One whacki
 - Banana Pi M5
 - Rock Pi 
 
-Also consider watching this video from LTT, which explores the specs of multiple boards in great detail - 
+Also consider watching this video from LTT, which explores the specs of multiple boards in great detail - https://youtu.be/uJvCVw1yONQ
 
 ## Hardware highlights
 
@@ -45,11 +45,18 @@ So what are some of the most important things to consider about this hardware?
 - 3 camera input slots.
 - Has an M.2 slot. Ideally for an SSD memory, or a combo wifi-bluetooth card. This is very important! We will discuss this next.
 
-## M.2 slot kerfuffle 
+## The M.2 slot kerfuffle 
 
-OrangePi is not the first board to come out with an M.2 slot. Taken alone, it is an amazing feature that allows you to utilise something like an NVMe SSD with your board. This is much faster than the classic micro SD (also supported by OrangePi5), as well SSD being a lot more reliable over time. Unfortunately, this board does not support any wireless connectivity. Leaving you with an uncomfortable decision: on board storage, or wireless connectivity.
+Orange Pi is not the first board to come out with an M.2 slot. Taken alone, it is an amazing feature that allows you to utilise something like an NVMe SSD with your board. This is much faster than the classic micro SD (also supported by OrangePi5), as well SSD being a lot more reliable over time. Unfortunately, this board does not support any wireless connectivity. Leaving you with an uncomfortable decision: on board storage, or wireless connectivity.
 The upside being that there are always external accessories for either option.
 
+## Software and community support
+
+One of the biggest considerations for many people looking to utilise this new board will be the community and software support. Now, the board is relatively new. As such, it should be forgiven for not having as much documented use as its raspberry counterpart. Saying that, there is already a decent set of options for the OS you can be running on your device. This includes Armbian, Orange PI Android OS, Debian, Ubuntu, or even OpenWRT that is used for networking and connectivity. 
+
+Here is the full list of options - http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-pi-5.html
+
+Let's keep in mind that as more people try this board out, the support will only get better and better. 
 
 ## Is the Orange Pi right for me? 
 
