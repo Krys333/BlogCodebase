@@ -7,7 +7,7 @@ author:
   twitter: '@KrystianBucko'
 categories: ["Terraform", "IaC", "AWS", "2023"]
 description: "Learn the basics of IaC from the perspective of Terraform"
-thumbnail: "images/thumbnail-blocks.jpg"
+thumbnail: "images/blocks-thumbnail.jpg"
 image: '/images/thumbnail-IaC.png' 
 ---
 
