@@ -43,6 +43,6 @@ Infrastructure as Code (IaC) is a critical part of the modern development proces
 
 Having read around the subject, I was hard-pressed to find any significant drawbacks of the approach. The only one I am willing to give some credit is the "Learning Curve" argument. Where there exists a curve associated with mastering the tools and languages used for IaC, such as CloudFormation or the aforementioned Terraform.
 
-Saying that we are all in business of engineering. With a sink or swim approach to learning embedded in this field, I am confident anyone reading this post is not bothered by learning. So with that positive note I will draw to a close. Remember to read up on ({{< ref "/blog/2023-05-09-get-started-with-terraform.md" >}} "Get started with Terraform") for a practical view of IaC.
+Saying that we are all in business of engineering. With a sink or swim approach to learning embedded in this field, I am confident anyone reading this post is not bothered by learning. So with that positive note I will draw to a close. Remember to read up on [Get started with Terraform](/blog/2023-05-09-get-started-with-terraform.md) for a practical view of IaC.
 
 Happy Terraforming!
