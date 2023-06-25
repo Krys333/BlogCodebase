@@ -8,7 +8,7 @@ author:
 categories: ["Terraform", "IaC", "AWS", "2023"]
 description: "Learn the basics of IaC from the perspective of Terraform"
 thumbnail: "images/blocks-thumbnail.jpg"
-image: '/images/thumbnail-IaC.png' 
+image: 'https://media.jfrog.com/wp-content/uploads/2022/06/13202833/863x300-1.png' 
 ---
 
 In this blogpost I will explain Infrastructure as Code (IaC) in a easy-to-digest way. I hope my explanation is so simple that you will be able to repeat it to a 10 year-old and have them grasp the premise!
@@ -29,7 +29,7 @@ Now let's imagine you want to do some more advanced actions, for example:
 - Choose whether your block set is wooden, plastic, or metal. Think using Google, AWS, Azure. 
 - Or even tear the building down quickly without leaving anything behind!
 
-![Building blocks](/images/thummbnail-blocks.jpg)
+![Building blocks](/images/blocks-thumbnail.jpg)
 
 This is what IaC (in context of Terraform) gives us. It is a tool that enables us to efficiently manage our infrastructure. To really drive the point home I have a list of technical points that correspond to the one above. 
 
@@ -43,6 +43,6 @@ Infrastructure as Code (IaC) is a critical part of the modern development proces
 
 Having read around the subject, I was hard-pressed to find any significant drawbacks of the approach. The only one I am willing to give some credit is the "Learning Curve" argument. Where there exists a curve associated with mastering the tools and languages used for IaC, such as CloudFormation or the aforementioned Terraform.
 
-Saying that we are all in business of engineering. With a sink or swim approach to learning embedded in this field, I am confident anyone reading this post is not bothered by learning. So with that positive note I will draw to a close. Remember to read up on [Get started with Terraform](/blog/2023-05-09-get-started-with-terraform.md) for a practical view of IaC.
+Saying that we are all in business of engineering. With a sink or swim approach to learning embedded in this field, I am confident anyone reading this post is not bothered by learning. So with that positive note I will draw to a close. Remember to read up on [Get started with Terraform](/blog/2023/05/create-your-first-project-with-terraform.md) for a practical view of IaC.
 
 Happy Terraforming!
