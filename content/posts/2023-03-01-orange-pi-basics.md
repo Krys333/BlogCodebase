@@ -5,7 +5,7 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["OrangePi", "Electronics", "RaspberryPi", "March 2023"]
+categories: ["OrangePi", "Electronics", "RaspberryPi", "2023"]
 description: "How not to lose an arm and a leg when buying a mini-computer for your project."
 thumbnail: "images/thummbnail-orangepi.jpg"
 image: '/images/orangepi-diagram.jpg' 
@@ -23,7 +23,7 @@ Unfortunately, through no fault of their own, their hardware has become anything
 
 Finally, there is the last puzzle piece that also lead to hardware shortages... the opportunists! Where there is an item in demand, there are also people trying to profit. With that, individuals with the capital to do it, were able to buy multiple boards for a later resale. This obviously exacerbated the problem and left people like you and me looking for alternatives.
 
-So, are there even any alternatives you may ask. Of course there are! One whackier than the next. Here is a notable shortlist, should you wish to do some reasearch yourself:
+So, are there even any alternatives you may ask. Of course there are! One whackier than the next. Here is a notable shortlist, should you wish to do some research yourself:
 
 - Potato Pi - a.k.a. "Libre Potato"
 - Libre Renegade

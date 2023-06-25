@@ -5,7 +5,7 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["How-to guide", "HUGO framework", "November 2022"]
+categories: ["How-to guide", "HUGO framework", "2022"]
 description: "Hosting your website as a static site will improve performance and improve security."
 thumbnail: "images/hugo.jpg"
 image: '/images/web-dev.jpg' 

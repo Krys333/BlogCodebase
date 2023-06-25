@@ -5,7 +5,7 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["Security", "E-commerce", "Payments", "Algorithms", "February 2023"]
+categories: ["Security", "E-commerce", "Payments", "Algorithms", "2023"]
 description: "Discover how card validation works and how Luhn algorithm is our first line of defence against input errors."
 thumbnail: "images/luhn-algorithm-thumbnail.jpg"
 image: '/images/blackboard.jpg' 
@@ -70,7 +70,7 @@ The original check digit was 5. Our calculated check digit is a 5 as well. This 
 ## A coded example (python)
 
 
-```python
+```py
 def split_check_digit(original_number):
     first_digits = original_number[:-1]
     original_check_digit = int(original_number) % 10
@@ -102,9 +102,9 @@ result = compare_actual_against_valid(original_check_digit, correct_check_digit)
 ```
 I recommend using the above code in conjunction with a basic input character count. This will cover you for most user input errors, as well as some unsophisticated malicious entry attempts. 
 
-## Other quirks of the check digit algorythm
+## Other quirks of the check digit algorithm
 
-If you are looking to implement this algorythm with your system, you need to know that it may not be easy to do so retrospectively. Let's say you have an existing user with the ID "1234 5678". By sheer chance, it is unlikely that our last digit ever happens to be correct as a check digit. As such, you are forced to add an additional digit to your ID. This may be problematic if you have previously issued your users with cards, or other references to their identification number. Many of them will not enjoy having to re-learn it!
+If you are looking to implement this algorithm with your system, you need to know that it may not be easy to do so retrospectively. Let's say you have an existing user with the ID "1234 5678". By sheer chance, it is unlikely that our last digit ever happens to be correct as a check digit. As such, you are forced to add an additional digit to your ID. This may be problematic if you have previously issued your users with cards, or other references to their identification number. Many of them will not enjoy having to re-learn it!
 
 However, if that is not a problem, you can re-utilise the code above to calculate check-digits for all of your IDs. The ID format is very flexible. It can be almost any length as it does not have a maximum digit limit. The number of elements can be odd, or even. The ID can, but does not have to be, a real number. 
 

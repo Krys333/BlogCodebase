@@ -5,10 +5,10 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["GitHub", "Security", "How-to guide", "December 2022"]
+categories: ["GitHub", "Security", "How-to guide", "2022"]
 description: "A quick intro into Github secrets and how to use them."
 thumbnail: "images/github-secrets.jpg"
-image: "https://git-secret.io/images/git-secret-big.png"
+image: "https://raw.githubusercontent.com/sobolevn/git-secret/gh-pages/images/git-secret-big.png"
 ---
 
 ## What are github secrets?

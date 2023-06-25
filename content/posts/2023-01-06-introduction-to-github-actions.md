@@ -5,7 +5,7 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["How-to guide", "GitHub", "GitHub Actions", "January 2023"]
+categories: ["How-to guide", "GitHub", "GitHub Actions", "2023"]
 description: "Learn how to deploy files onto a Google Cloud Storage bucket using GitHub Actions."
 thumbnail: "images/github-actions.jpg"
 image: '/images/github-actions-hero.jpg' 
