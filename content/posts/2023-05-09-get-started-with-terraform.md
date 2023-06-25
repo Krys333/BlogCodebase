@@ -13,12 +13,11 @@ image: 'https://assets-global.website-files.com/62a8969da1ab56329dc8c41e/6413f8a
 
 
 ## Part 1 - Understanding Terraform and Infrastructure as Code
-Terraform is a tool that enables you to define and manage your infrastructure using 'declarative' config files. It follows the principle of infrastructure as code (IaC). It treats infrastructure components such as servers, networks, and storage as manageable software artifacts. If you are unfamiliar with the concept of IaC, check out my explanation of it here. 
-<!-- add link to other blog post -->
+Terraform is a tool that enables you to define and manage your infrastructure using 'declarative' config files. It follows the principle of infrastructure as code (IaC). It treats infrastructure components such as servers, networks, and storage as manageable software artifacts. If you are unfamiliar with the concept of IaC, check out my explanation of it [here.](/blog/2023/04/explore-infrastructure-as-code-through-a-simple-anecdote/) 
 ## Part 2 - Prerequisites
 Before we dive into creating our first Terraform project, let's ensure we have all prerequisites in place:
 
-Visit the official [Terraform website]<a href="https://www.terraform.io/"></a> and download the appropriate version for your operating system. Follow the installation instructions provided. Next you need to choose a cloud provider such as AWS, Azure, or Google Cloud and create an account. Make sure to obtain the necessary access credentials (i.e. API keys, or access tokens).
+Visit the official Terraform website (https://www.terraform.io/) and download the appropriate version for your operating system. Follow the installation instructions provided. Next you need to choose a cloud provider such as AWS, Azure, or Google Cloud and create an account. Make sure to obtain the necessary access credentials (i.e. API keys, or access tokens).
 
 Finally, set up the necessary access credentials on your local machine. Each cloud provider will have their own documentation for this step. My choice is AWS, so I recommend you use this as a guide: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
@@ -89,7 +88,7 @@ This command will identify the resources defined in your configuration and destr
 
 ## Conclusion
 
-And so you did it! You have successfully created a basic infrastructure, provisioned it, and (hopefully) cleaned everything up nicely! From here on you can go a step further and build out the infrastructure you provision. As the project becomes more complicated, you may want to look into tools such as 'modules' to help you organise your resources better. All the tips and tricks are very well contained in the official HashiCorp Terraform documentation. SO please go ahead and give that a read too!
-<!-- Insert link to terraform documentation. -->
+And so you did it! You have successfully created a basic infrastructure, provisioned it, and (hopefully) cleaned everything up nicely! From here on you can go a step further and build out the infrastructure you provision. As the project becomes more complicated, you may want to look into tools such as 'modules' to help you organise your resources better. All the tips and tricks are very well contained in the official HashiCorp Terraform documentation. SO please go ahead and give that a read too! (https://developer.hashicorp.com/terraform/docs)
+
 Anyway. Happy provisioning!
 
