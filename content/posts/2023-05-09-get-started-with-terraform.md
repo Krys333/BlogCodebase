@@ -18,7 +18,7 @@ Terraform is a tool that enables you to define and manage your infrastructure us
 ## Part 2 - Prerequisites
 Before we dive into creating our first Terraform project, let's ensure we have all prerequisites in place:
 
-Visit the official <a href = "https://www.terraform.io">Terraform website</a> and download the appropriate version for your operating system. Follow the installation instructions provided. Next you need to choose a cloud provider such as AWS, Azure, or Google Cloud and create an account. Make sure to obtain the necessary access credentials (i.e. API keys, or access tokens).
+Visit the official [Terraform website]<a href="https://www.terraform.io/"></a> and download the appropriate version for your operating system. Follow the installation instructions provided. Next you need to choose a cloud provider such as AWS, Azure, or Google Cloud and create an account. Make sure to obtain the necessary access credentials (i.e. API keys, or access tokens).
 
 Finally, set up the necessary access credentials on your local machine. Each cloud provider will have their own documentation for this step. My choice is AWS, so I recommend you use this as a guide: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
