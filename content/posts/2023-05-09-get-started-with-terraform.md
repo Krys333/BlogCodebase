@@ -1,13 +1,13 @@
 ---
-title: "Explore infrastructure as code with an easy anecdote"
+title: "Create your first project with Terraform"
 date: 2023-05-09
 author: 
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
 categories: ["Terraform", "IaC", "AWS", "2023"]
-description: "Learn the basics of IaC from the perspective of Terraform"
-thumbnail: "images/terraform-thummbnail.jpg"
+description: "Learn and understand the process behind provisioning basic IaC with Terraform."
+thumbnail: "images/terraform-thumbnail.jpg"
 image: 'https://assets-global.website-files.com/62a8969da1ab56329dc8c41e/6413f8a11251e370fb5b404d_Hashicorp%20Certified%20Terraform%20Associate%201.png' 
 ---
 
