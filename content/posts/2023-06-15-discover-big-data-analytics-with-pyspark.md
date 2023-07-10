@@ -1,6 +1,6 @@
 ---
 title: "Discover big data analytics with PySpark"
-date: 2023-06-02
+date: 2023-07-03
 author: 
   name: "Krystian Bucko"
   image: images/author/krys.jpg
