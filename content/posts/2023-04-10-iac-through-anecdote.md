@@ -26,16 +26,16 @@ Now let's imagine you want to do some more advanced actions, for example:
 - Regularly scale it up, or down, as and when you need it.
 - Build stuff with a team (easily).
 - Manage complexity of a very big project with ease.
-- Choose whether your block set is wooden, plastic, or metal. Think using Google, AWS, Azure. 
+- Choose whether your block set is wooden, plastic, or metal. Think using GCP, AWS, or Azure. 
 - Or even tear the building down quickly without leaving anything behind!
 
 ![Building blocks](/images/blocks-thumbnail.jpg)
 
 This is what IaC (in context of Terraform) gives us. It is a tool that enables us to efficiently manage our infrastructure. To really drive the point home I have a list of technical points that correspond to the one above. 
 
-- <strong>Consistency and Reproducibility.</strong> Infrastructure deployments are predictable and consistent across different environments, reducing human error.
-- <strong>Scalability and Agility.</strong> Automation enables easy scaling up or down of infrastructure resources and quick replication of environments.
-- <strong>Version Control and Collaboration.</strong> Infrastructure configurations can be treated as code, enabling versioning, change tracking, and seamless collaboration among team members.
+- **Consistency and Reproducibility.** Infrastructure deployments are predictable and consistent across different environments, reducing human error.
+- **Scalability and Agility.** Automation enables easy scaling up or down of infrastructure resources and quick replication of environments.
+- **Version Control and Collaboration.** Infrastructure configurations can be treated as code, enabling versioning, change tracking, and seamless collaboration among team members.
 
 ## Conclusion
 

@@ -1,5 +1,5 @@
 ---
-title: "OrangePi5 - The Affordable Alternative to RaspberryPi"
+title: "OrangePi5 - The affordable alternative to RaspberryPi"
 date: 2023-03-01
 author: 
   name: "Krystian Bucko"
@@ -40,10 +40,12 @@ So what are some of the most important things to consider about this hardware?
 
 - CPU is an 8-core 64bit processor available in 4GB, 8GB, 16GB, or even 32GB of RAM. The last (in my opinion) being a huge overkill for a single board computer.
 - GPU is a Mali-G610 processor. This can support 8k video at 60fps. This is very powerful and great for running media servers. 
+- The GPU is also optimised for neural processing. This means it can handle machine learning and AI applications. This makes it ideal for image and speech recognition, as well as natural language processing. 
 - Has a Gigabit Ethernet port. However, it contains NO built-in wi-fi/bluetooth capability.
 - Full sized HDMI connector.
 - 3 camera input slots.
 - Has an M.2 slot. Ideally for an SSD memory, or a combo wifi-bluetooth card. This is very important! We will discuss this next.
+
 
 ## The M.2 slot kerfuffle 
 
@@ -67,4 +69,4 @@ Ultimately, your use-case determines everything. Match the requirements and your
 
 I look to post my incoming Orange Pi projects soon. I'll catalogue them under OrangePi, so keep looking out for that. 
 
-Happy tweaking. 
+Happy tinkering. 

@@ -5,10 +5,10 @@ author:
   name: "Krystian Bucko"
   image: images/author/krys.jpg
   twitter: '@KrystianBucko'
-categories: ["Terraform", "IaC", "AWS", "2023"]
+categories: ["Terraform", "IaC", "AWS", "ETL", "2023"]
 description: "Learn and understand the process behind provisioning basic IaC with Terraform."
 thumbnail: "images/terraform-thumbnail.jpg"
-image: 'https://assets-global.website-files.com/62a8969da1ab56329dc8c41e/6413f8a11251e370fb5b404d_Hashicorp%20Certified%20Terraform%20Associate%201.png' 
+image: "https://www.whizlabs.com/blog/wp-content/uploads/2021/04/Terraform-1.png" 
 ---
 
 
@@ -73,9 +73,9 @@ Terraform will prompt for confirmation before making any modifications. Enter "y
 ## Part 6 - Managing State
 Terraform uses a state file to track the resources it manages. Proper state management is crucial to ensure accurate tracking of infrastructure changes and enable collaboration within a team. Let's explore how to manage Terraform state.
 
-- <strong>Local State.</strong> By default, Terraform stores state locally in a file named terraform.tfstate. This can be found in your project folder. While suitable for individual use or small projects, it's not recommended for collaborative or production set-ups.
+- **Local State.** By default, Terraform stores state locally in a file named terraform.tfstate. This can be found in your project folder. While suitable for individual use or small projects, it's not recommended for collaborative or production set-ups.
 
-- <strong>Remote State.</strong> Consider configuring remote state storage for better collaboration and stability. This can be set up in a multitude of ways. The easiest is provided by Terraform Cloud, however at the time of writing this is a premium feature. Alternatives include storing the 'state' file in a secure, remote location. 
+- **Remote State.** Consider configuring remote state storage for better collaboration and stability. This can be set up in a multitude of ways. The easiest is provided by Terraform Cloud, however at the time of writing this is a premium feature. Alternatives include storing the 'state' file securely in cloud object storage (e.g. Amazon S3). 
 
 ## Part 7 - Cleaning Up
 To avoid unnecessary costs, it's important to clean up the resources we provisioned when we no longer need them. Open your terminal or command prompt, navigate to your project directory, and run the following command:
