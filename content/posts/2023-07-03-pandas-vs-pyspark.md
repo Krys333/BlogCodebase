@@ -8,7 +8,7 @@ author:
 categories: ["ETL", "Data Processing", "2023"]
 description: "Understand the key differences between two seemingly similar data processing tools."
 thumbnail: "images/thumbnail-pyspark-v-pandas.jpg"
-image: "images/blackboard.jpg" 
+image: "https://boostlabs.com/wp-content/uploads/2023/02/10-types-of-data-visualization-1-1024x614.jpg"
 ---
 
 Data manipulation and analysis are essential components of any data-driven project. Pandas and PySpark are two widely used tools in the data science community, each offering unique strengths for handling data. In this blog post, we will perform an objective comparison of Pandas and PySpark, highlighting their features, use cases, performance, and scalability. Let's dive into the battle of these data manipulation giants.
