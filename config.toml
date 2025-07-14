@@ -7,7 +7,8 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 metaDataFormat = "yaml"
-paginate = 3
+pagination.pagerSize = 3
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   google_analytics_id = "UA-172946404-1"
